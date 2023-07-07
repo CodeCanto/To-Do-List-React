@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import ColourPalette from "./components/ColourPalette";
 import UserInputForm from "./components/UserInputForm";
 import TaskList from "./components/TaskList";
