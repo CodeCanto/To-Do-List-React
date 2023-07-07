@@ -1,0 +1,24 @@
+.paragraph {
+  background-color: yellow;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.li {
+  border-style: dashed;
+  background-color: yellow;
+  width: 200px;
+  word-wrap: break-word;
+  padding: 5%;
+  margin: 5%;
+}
+
+.li:hover {
+  box-shadow: 15px 15px 0px 0px rgb(0, 0, 0);
+}

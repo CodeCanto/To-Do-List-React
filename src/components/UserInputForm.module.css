@@ -1,0 +1,36 @@
+.input {
+  background-color: aliceblue;
+  border: none;
+}
+
+.label {
+  background-color: yellow;
+}
+
+.form {
+  padding: 5%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 250px;
+  text-align: center;
+  border-style: solid;
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+  background-color: yellow;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: yellow;
+}
+
+.button {
+  border: none;
+  margin-top: 5%;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 1px 2px rgb(156, 141, 3);
+}

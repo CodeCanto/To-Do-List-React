@@ -1,0 +1,87 @@
+.colourlist {
+  display: flex;
+  justify-content: center;
+  flex-direction: rows;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.colouritemred {
+  background-color: red;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritemgreen {
+  background-color: green;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritemblue {
+  background-color: blue;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritemyellow {
+  background-color: yellow;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritemorange {
+  background-color: orange;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritempink {
+  background-color: pink;
+  margin: 20%;
+  flex-basis: 33.3%;
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  height: 25px;
+  width: 200px;
+}
+
+.colouritemblue:hover {
+  box-shadow: 0px 0px 5px 0px blue;
+}
+.colouritemgreen:hover {
+  box-shadow: 0px 0px 5px 0px green;
+}
+.colouritemorange:hover {
+  box-shadow: 0px 0px 5px 0px orange;
+}
+.colouritempink:hover {
+  box-shadow: 0px 0px 5px 0px pink;
+}
+.colouritemred:hover {
+  box-shadow: 0px 0px 5px 0px red;
+}
+
+.colouritemyellow:hover {
+  box-shadow: 0px 0px 5px 0px yellow;
+}
